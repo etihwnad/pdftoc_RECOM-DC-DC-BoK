@@ -1,0 +1,212 @@
+(3) Preface from RECOM Management
+(4) Preface from the Author
+(5) Contents
+(10) 1 Introduction
+	(10) 1.1 Linear Regulators
+		(12) 1.1.1 Efficiency of a Linear Regulator
+		(13) 1.1.2 Other Properties of the Linear Regulator
+		(13) 1.1.3 LDO Linear Regulators
+	(15) 1.2 Switching Regulator
+		(16) 1.2.1 Switching Frequency and Inductor Size
+		(16) 1.2.2 Switching Regulator Topologies
+			(17) 1.2.2.1 Non-Isolated DC/DC Converter
+				(18) 1.2.2.1.1 Switching Transistors
+				(19) 1.2.2.1.2 Buck Converter
+				(21) 1.2.2.1.3 Buck Converter Applications
+				(22) 1.2.2.1.4 Boost Converter
+				(24) 1.2.2.1.5 Boost Converter Applications
+				(26) 1.2.2.1.6 Buck-Boost (Inverting) Converter
+				(27) 1.2.2.1.7 Buck/Boost Discontinuous and Continuous Mode
+				(27) 1.2.2.1.8 Synchronous and Asynchronous Conversion
+				(28) 1.2.2.1.9 Two Stage Boost/Buck (Ćuk Converter)
+				(30) 1.2.2.1.10 Two Stage Boost/Buck SEPIC Converter
+				(32) 1.2.2.1.11 Two Stage Boost/Buck ZETA Converter
+				(33) 1.2.2.1.12 Multiphase DC/DC Converters
+			(35) 1.2.2.2 Isolated DC/DC Converters
+				(35) 1.2.2.2.1 Flyback DC/DC Converter
+				(37) 1.2.2.2.2 Forward DC/DC Converter
+				(39) 1.2.2.2.3 Active Clamp Forward Converter
+				(40) 1.2.2.2.4 Push-Pull Converter
+				(43) 1.2.2.2.5 Half Bridge and Full Bridge Converters
+				(44) 1.2.2.2.6 Busconverter or Ratiometric Converter
+				(45) 1.2.2.2.7 Unregulated Push-Pull Converter
+		(48) 1.2.3 Parasitic Elements and their Effects
+			(51) 1.2.3.1 QR Converter
+			(52) 1.2.3.2 RM Converter
+		(54) 1.2.4 Efficiency of DC/DC Converters
+		(55) 1.2.5 PWM-Regulation Techniques
+		(58) 1.2.6 DC/DC Converter Regulation
+		(58) 1.2.6.1 Regulation of Multiple Outputs
+		(61) 1.2.6.2 Remote Sense
+		(63) 1.2.7 Limitations on the Input Voltage Range
+		(65) 1.2.8 Synchronous Rectification
+		(66) 1.2.9 Planar Transformers
+		(68) 1.2.10 Package Styles of DC/DC Converters
+(70) 2 Feedback Loops
+	(70) 2.1 Introduction
+	(70) 2.2 Open Loop Design
+	(71) 2.3 Closed Loops
+	(74) 2.4 Feedback Loop Compensation
+		(76) 2.4.1 Right Half Plane Instability
+	(76) 2.5 Slope Compensation
+	(78) 2.6 Analyzing Loop Stability in Analogue and Digital Feedback Systems
+		(78) 2.6.1 Finding Analogue Loop Stability Experimentally
+		(78) 2.6.2 Finding Analogue Loop Stability using the Laplace Transform
+		(80) 2.6.3 Finding Digital Loop Stability using the Bilinear Transform
+		(82) 2.6.4 Digital Feedback Loop
+(84) 3 Understanding the Datasheet Parameters
+	(84) 3.1 Measurement Methods – DC Characteristic
+	(86) 3.2 Measurement Methods – AC Characteristics
+		(87) 3.2.1 Measuring Minimum and Maximum Duty Cycle
+		(88) 3.2.2 Output Voltage Accuracy
+		(88) 3.2.3 Output Voltage Temperature Coefficient
+		(89) 3.2.4 Load Regulation
+		(90) 3.2.5 Cross Regulation
+		(90) 3.2.6 Line Regulation
+		(91) 3.2.7 Worst Case Output Voltage Accuracy
+		(91) 3.2.8 Calculating Efficiency
+		(92) 3.2.9 Input Voltage Range
+		(92) 3.2.10 Input Current
+		(94) 3.2.11 Short Circuit and Overload Current
+		(95) 3.2.12 Remote ON/OFF Control
+		(96) 3.2.13 Isolation Voltage
+		(99) 3.2.14 Isolation Resistance and Capacitance
+		(100) 3.2.15 Dynamic Load Response
+		(101) 3.2.16 Output Ripple/Noise
+	(102) 3.3 Understanding Thermal Parameters
+		(102) 3.3.1 Introduction
+		(103) 3.3.2 Thermal Impedance
+		(104) 3.3.3 Thermal Derating
+		(106) 3.3.4 Forced Cooling
+		(107) 3.3.5 Conducted and Radiated Cooling
+(109) 4 DC/DC Converter Protections
+	(109) 4.1 Introduction
+	(109) 4.2 Reverse Polarity Protection
+		(110) 4.2.1 Series Diode Reverse Polarity Protection
+		(111) 4.2.2 Shunt Diode Reverse Polarity Protection
+		(111) 4.2.3 P-FET Reverse Polarity Protection
+	(112) 4.3 Input Fuse
+	(113) 4.4 Output Over-Voltage Protection
+	(113) 4.5 Input Over-Voltage Protection
+		(114) 4.5.1 SCR Crowbar Protection
+		(115) 4.5.2 Clamping Elements
+			(115) 4.5.2.1 Varistor
+			(116) 4.5.2.2 Suppression Diode
+		(117) 4.5.3 OVP Using Several Elements
+		(118) 4.5.4 OVP Standards
+		(119) 4.5.5 OVP by Disconnection
+	(120) 4.6 Voltage Dips and Interruptions
+	(122) 4.7 Inrush Current Limiting
+	(124) 4.8 Load Limiting
+	(125) 4.9 Under Voltage Lockout
+(127) 5 Input and Output Filtering
+	(127) 5.1 Introduction
+	(128) 5.2 Back Ripple Current
+		(128) 5.2.1 Measuring Back Ripple Current
+		(129) 5.2.2 Back Ripple Current Countermeasures
+		(131) 5.2.3 Input Capacitor Selection
+		(132) 5.2.4 Input Current of DC/DC Converters in Parallel
+	(134) 5.3 Output Filtering
+		(134) 5.3.1 Differential Mode Output Filtering
+		(136) 5.3.2 Common Mode Output Filtering
+		(137) 5.3.3 Common Mode Chokes
+	(141) 5.4 Full Filtering
+		(142) 5.4.1 Filter PCB Layout
+(145) 6 Safety
+	(146) 6.1 Electric Shock
+		(146) 6.1.1 Insulation Class
+		(147) 6.1.2 Human Body Treshold Currents
+		(149) 6.1.3 Protection from Electric Shock
+		(152) 6.1.4 Protective Earth
+	(154) 6.2 Hazardous Energy
+		(154) 6.2.1 Fuses
+			(156) 6.2.1.1 Fuse Reaction Time and Inrush Currents
+		(157) 6.2.2 Circuit Breakers
+	(158) 6.3 Inherent Safety
+	(159) 6.4 Intrinsic Safety
+		(160) 6.4.1 Combustible Materials
+		(162) 6.4.2 Smoke
+	(163) 6.5 Injury Hazards
+		(163) 6.5.1 Hot Surfaces
+		(163) 6.5.2 Sharp Edges
+	(164) 6.6 Designing for Safety
+		(166) 6.6.1 FMEA
+	(168) 6.7 Medical Safety
+(170) 7 Reliability
+	(170) 7.1 Reliability Prediction
+	(173) 7.2 Environmental Stress Factor
+	(174) 7.3 Using MTBF Figures
+	(175) 7.4 Demonstrated MTBF
+	(176) 7.5 MTBF and Temperature
+	(177) 7.6 Designing for Reliability
+	(178) 7.7 PCB Layout Reliability Consideration
+	(182) 7.8 Capacitor Reliability
+		(182) 7.8.1 MLCC
+		(185) 7.8.2 Tantalum and Electrolytic Capacitors
+	(188) 7.9 Semiconductors Reliability
+	(189) 7.10 ESD
+	(191) 7.11 Inductors
+(193) 8 LED Characteristics
+	(195) 8.1 Driving LEDs with Constant Currents
+	(195) 8.2 Some DC Constant Current Sources
+	(197) 8.3 Connecting LEDs in String
+	(198) 8.4 Connecting LED Strings in Parallel
+	(199) 8.5 Balancing LED Current in Parallel Strings
+	(201) 8.6 Parallel Strings or Grid Array – Which is better?
+	(203) 8.7 LED Dimming
+		(203) 8.7.1 Analogue versus PWM Dimming
+		(205) 8.7.2 Perceived Brightness
+		(205) 8.7.3 Dimming Conclusion
+	(206) 8.8 Thermal Considerations
+	(207) 8.9 Temperature Derating
+		(207) 8.9.1 Adding Automatic Thermal Derating to an LED Driver
+		(207) 8.9.2 Over-temperature Protection using a PTC Thermistor
+		(209) 8.9.3 Over-temperature Protection using an Analogue Temperature Sensor IC
+		(211) 8.9.4 Over-temperature Protection using a Microcontroller
+	(212) 8.10 Brightness Compensation
+	(214) 8.11 Some Circuit Ideas using RCD driver
+(221) 9 Applications
+	(221) 9.1 Introduction
+	(221) 9.2 Polarity Inversion
+	(222) 9.3 Power Doubler
+	(223) 9.4 Combining Switching Regulators and DC/DC Converters
+	(226) 9.5 Connecting Converters in Series
+	(227) 9.6 Increasing the Isolation
+	(227) 9.7 5V Rail Clean-up
+	(229) 9.8 Using CTRL Pin
+	(230) 9.9 Using V ADJ Pin
+(231) 10 Introduction to Magnetics
+	(231) 10.1 Basics
+		(234) 10.1.1 Core Saturation
+		(237) 10.1.2 Air-gapped Inductors
+		(239) 10.1.3 Core Shapes
+		(241) 10.1.4 Core Losses
+			(241) 10.1.4.1 Mutual Inductance Losses
+			(242) 10.1.4.2 Eddy Current Losses
+			(243) 10.1.4.3 The Skin Effect
+			(246) 10.1.4.4 The Proximity Effect
+	(249) 10.2 Buck Converter Design Worked Example
+		(251) 10.2.1 Calculating the Losses in a Buck Converter
+			(251) 10.2.1.1 Inductor Losses
+			(253) 10.2.1.2 Calculating the MOSFET Loss
+			(254) 10.2.1.3 Calculating the Diode Loss
+		(254) 10.2.2 Boost Converter Design
+	(255) 10.3 Introduction to Transformers
+		(255) 10.3.1 Royer Push-Pull Self Oscillating Transformer
+		(257) 10.3.2 Royer Transformer Design Considerations
+		(258) 10.3.3 Transformer Design Considerations
+		(259) 10.3.4 Forward Converter Transformer Design
+			(259) 10.3.4.1 Introduction to Forward Converters
+			(260) 10.3.4.2 Forward Converter Transformer Design
+		(263) 10.3.5 Flyback Transformer Design
+			(271) 10.3.5.1 Flyback Clamp Circuit and Associated Losses
+			(273) 10.3.5.2 Transformer Design for Quasi-Resonant Flyback Mode
+	(274) 10.4 Whole turns and fractional turns
+		(275) 10.4.1 Transformer Leakage Inductance and Capacitance
+		(276) 10.4.2 Methods of reducing Transformer Leakage Inductance
+		(278) 10.4.3 Methods of reducing Transformer Leakage Capacitance
+	(279) 10.5 Transformer Core Temperature
+	(282) 10.6 Finalizing the Transformer Design: EMI
+(284) References
+(285) About RECOM
+(286) Acknowledgements
