@@ -9,3 +9,8 @@ Save as `original.pdf`.
 This repository only includes the table of contents information and scripting tools.
 Neither the original document or the with-bookmarks version is included here to comply with the original copyright terms.
 
+
+## Requirements
+
+* `pdftk` and `gs` (`sudo apt install pdftk ghostscript`)
+* Python 3
