@@ -2,7 +2,7 @@
 
 SOURCE=original.pdf
 INFO=toc.info
-OUTPUT=Recom_DC-DC-Book-of-Knowledge-3.pdf
+OUTPUT=RECOM_DC-DC-Book-of-Knowledge-3.pdf
 
 
 default: $(OUTPUT)
